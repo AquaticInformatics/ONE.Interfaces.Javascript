@@ -1,0 +1,3 @@
+[submodule "claros.interfaces.protocolbuffers"]
+	path = claros.interfaces.protocolbuffers
+	url = http://nkellerhal@stash.hach.ewqg.com/scm/cpb/claros.interfaces.protocolbuffers.git
