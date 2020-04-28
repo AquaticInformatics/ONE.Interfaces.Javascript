@@ -1,0 +1,7 @@
+# all generated protobuf code and dependencies
+generation/out
+generation/node_modules
+
+# generated protobuf code for library and dependencies
+lib/src/
+lib/node_modules

@@ -1,0 +1,9 @@
+{
+  "name": "@hach/claros_protobuf_generate",
+  "version": "0.0.1",
+  "description": "Generates Claros Protocol Buffers for JavaScript (& TypeScript).",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "protobufjs": "^6.9.0"
+  }
+}
