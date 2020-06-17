@@ -36,7 +36,6 @@ node_modules/protobufjs/cli/bin/pbjs -t static-module -w commonjs  \
   -p ../claros.interfaces.protocolbuffers/proto/claros/common/report/core \
   -p ../claros.interfaces.protocolbuffers/proto/claros/common/report/data \
   -p ../claros.interfaces.protocolbuffers/proto/claros/common/task \
-  -p ../claros.interfaces.protocolbuffers/proto/claros/common/task \
   -p ../claros.interfaces.protocolbuffers/proto/claros/common/task/core \
   -p ../claros.interfaces.protocolbuffers/proto/claros/common/task/data \
   -p ../claros.interfaces.protocolbuffers/proto/claros/common/task/definition \
@@ -52,11 +51,14 @@ node_modules/protobufjs/cli/bin/pbjs -t static-module -w commonjs  \
   -p ../claros.interfaces.protocolbuffers/proto/claros/instrument/definition \
   -p ../claros.interfaces.protocolbuffers/proto/claros/instrument/enum \
   -p ../claros.interfaces.protocolbuffers/proto/claros/instrument/event/data \
+  -p ../claros.interfaces.protocolbuffers/proto/claros/instrument/event/lock \
   -p ../claros.interfaces.protocolbuffers/proto/claros/instrument/measurement \
   -p ../claros.interfaces.protocolbuffers/proto/claros/instrument/measurement/data \
   -p ../claros.interfaces.protocolbuffers/proto/claros/instrument/measurement/definition \
+  -p ../claros.interfaces.protocolbuffers/proto/claros/instrument/menu \
   -p ../claros.interfaces.protocolbuffers/proto/claros/instrument/setting \
   -p ../claros.interfaces.protocolbuffers/proto/claros/instrument/status \
+  -p ../claros.interfaces.protocolbuffers/proto/claros/instrument/iot/registry \
   -p ../claros.interfaces.protocolbuffers/proto/claros/operations/spreadsheet \
   -p ../claros.interfaces.protocolbuffers/proto/claros/operations/spreadsheet/core \
   -p ../claros.interfaces.protocolbuffers/proto/claros/operations/spreadsheet/data \
