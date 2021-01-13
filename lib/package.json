@@ -1,6 +1,6 @@
 {
   "name": "@hach/claros_protobuf",
-  "version": "5.1.0",
+  "version": "7.0.0",
   "description": "Claros Protocol Buffers for JavaScript (& TypeScript).",
   "license": "UNLICENSED",
   "main": "src/api_response.js",
