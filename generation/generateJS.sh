@@ -18,6 +18,9 @@ echo "=== ${P} :: (${PROTO})"
 node_modules/protobufjs/cli/bin/pbjs -t static-module -w commonjs  \
   -p ../claros.interfaces.protocolbuffers/proto/claros \
   -p ../claros.interfaces.protocolbuffers/proto/claros/common \
+  -p ../claros.interfaces.protocolbuffers/proto/claros/common/activity \
+  -p ../claros.interfaces.protocolbuffers/proto/claros/common/activity/definition \
+  -p ../claros.interfaces.protocolbuffers/proto/claros/common/activity/enum \
   -p ../claros.interfaces.protocolbuffers/proto/claros/common/computation \
   -p ../claros.interfaces.protocolbuffers/proto/claros/common/configuration \
   -p ../claros.interfaces.protocolbuffers/proto/claros/common/core \
@@ -44,6 +47,9 @@ node_modules/protobufjs/cli/bin/pbjs -t static-module -w commonjs  \
   -p ../claros.interfaces.protocolbuffers/proto/claros/enterprise/core \
   -p ../claros.interfaces.protocolbuffers/proto/claros/enterprise/data \
   -p ../claros.interfaces.protocolbuffers/proto/claros/enterprise/enum \
+  -p ../claros.interfaces.protocolbuffers/proto/claros/enterprise/report \
+  -p ../claros.interfaces.protocolbuffers/proto/claros/enterprise/report/definition \
+  -p ../claros.interfaces.protocolbuffers/proto/claros/enterprise/report/enum \
   -p ../claros.interfaces.protocolbuffers/proto/claros/enterprise/twin \
   -p ../claros.interfaces.protocolbuffers/proto/claros/instrument \
   -p ../claros.interfaces.protocolbuffers/proto/claros/instrument/core \
@@ -60,7 +66,10 @@ node_modules/protobufjs/cli/bin/pbjs -t static-module -w commonjs  \
   -p ../claros.interfaces.protocolbuffers/proto/claros/instrument/setting \
   -p ../claros.interfaces.protocolbuffers/proto/claros/instrument/status \
   -p ../claros.interfaces.protocolbuffers/proto/claros/iot \
+  -p ../claros.interfaces.protocolbuffers/proto/claros/iot/core \
   -p ../claros.interfaces.protocolbuffers/proto/claros/iot/registry \
+  -p ../claros.interfaces.protocolbuffers/proto/claros/iot/registry/definition \
+  -p ../claros.interfaces.protocolbuffers/proto/claros/iot/registry/enum \
   -p ../claros.interfaces.protocolbuffers/proto/claros/operations \
   -p ../claros.interfaces.protocolbuffers/proto/claros/operations/spreadsheet \
   -p ../claros.interfaces.protocolbuffers/proto/claros/operations/spreadsheet/core \
