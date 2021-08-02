@@ -14,7 +14,7 @@ cp -p ./out/js/api_response.js ../lib/src/api_response.js
 cp -p ./out/ts/api_response.d.ts ../lib/src/api_response.d.ts
 
 # == configure @hach scope to point at Hach ProGet registry ==
-npm config set @hach:registry http://components.fusion.hach.com/npm/FF-npm
+npm config set @hach:registry https://pkgs.dev.azure.com/claros-devops/claros-npm/_packaging/claros-npm/npm/registry/
 
 # == pull lib dependencies and publish ==
 cd ../lib
