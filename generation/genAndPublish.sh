@@ -13,8 +13,8 @@ mkdir -p ../lib/src
 cp -p ./out/js/api_response.js ../lib/src/api_response.js
 cp -p ./out/ts/api_response.d.ts ../lib/src/api_response.d.ts
 
-# == configure @hach scope to point at Hach ProGet registry ==
-npm config set @hach:registry https://pkgs.dev.azure.com/claros-devops/claros-npm/_packaging/claros-npm/npm/registry/
+# == configure @aqi scope to point at AQI ProGet registry ==
+npm config set @aqi:registry https://pkgs.dev.azure.com/aqi-devops/23daa24c-9d36-459f-8fc3-3a4ffa9de92a/_packaging/aqi-npm/npm/registry/
 
 # == pull lib dependencies and publish ==
 cd ../lib
