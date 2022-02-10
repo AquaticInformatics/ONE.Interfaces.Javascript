@@ -1,3 +1,0 @@
-[submodule "claros.interfaces.protocolbuffers"]
-	path = claros.interfaces.protocolbuffers
-	url = ssh://git@stash.waterqualitytools.com:7999/aqic/claros.interfaces.protocolbuffers.git
