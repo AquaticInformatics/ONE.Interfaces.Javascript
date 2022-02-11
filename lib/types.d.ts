@@ -1,2 +1,2 @@
-export * from './src/api_response';
+export * from './src/apiresponse';
 export { Long } from 'long';
