@@ -1,6 +1,6 @@
 {
   "name": "@aqi/claros_protobuf",
-  "version": "11.0.2",
+  "version": "14.4.0",
   "description": "Claros Protocol Buffers for JavaScript (& TypeScript). Version 2.1.1 of Claros.Interfaces.ProtocolBuffers",
   "license": "UNLICENSED",
   "main": "src/apiresponse.js",
