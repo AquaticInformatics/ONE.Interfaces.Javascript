@@ -1,5 +1,5 @@
 {
-  "name": "@aqi/claros_protobuf_generate",
+  "name": "@aquaticinformatics/claros_protobuf_generate",
   "version": "0.0.2",
   "description": "Generates Claros Protocol Buffers for JavaScript (& TypeScript).",
   "license": "UNLICENSED",
