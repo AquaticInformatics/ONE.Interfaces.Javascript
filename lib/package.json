@@ -1,6 +1,6 @@
 {
   "name": "@aquaticinformatics/claros_protobuf",
-  "version": "15.5.1",
+  "version": "15.5.3",
   "description": "Claros Protocol Buffers for JavaScript (& TypeScript). Version 7.10.1 of ONE.Interfaces.ProtocolBuffers",
   "license": "UNLICENSED",
   "main": "src/apiresponse.js",
